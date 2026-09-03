@@ -1,0 +1,60 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Local caches and temporary files
+.cache/
+.local/
+tmp/
+temp/
+*.log
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+coverage.xml
+.coverage
+htmlcov/
+
+# Node tooling
+node_modules/
+.npm/
+coverage/
+dist/
+build/
+
+# Raw or bulky source material
+downloads/
+data/raw/
+data/downloads/
+data/cache/
+artifacts/raw/
+*.mp4
+*.mkv
+*.webm
+
+# Generated transcripts and captions
+data/transcripts/
+artifacts/transcripts/
+*.vtt
+*.srt
+!fixtures/**/*.vtt
+!fixtures/**/*.srt
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
