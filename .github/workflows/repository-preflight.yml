@@ -1,0 +1,83 @@
+name: Repository preflight
+
+on:
+  push:
+    branches:
+      - main
+      - "task/**"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-preflight:
+    name: Repository preflight
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify required preflight files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f .gitignore
+          test -f .env.example
+          grep -Fq "cp .env.example .env" README.md
+          grep -Fq "source-discovery prototype has **not** started" README.md
+
+      - name: Reject prohibited tracked paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          failed=0
+          while IFS= read -r path; do
+            case "$path" in
+              .env|.env.*)
+                if [[ "$path" != ".env.example" ]]; then
+                  echo "::error file=$path::Local configuration must not be tracked."
+                  failed=1
+                fi
+                ;;
+              *.pem|*.key|*.p12|*.pfx|credentials*.json|secrets*.json)
+                echo "::error file=$path::Credential material must not be tracked."
+                failed=1
+                ;;
+              downloads/*|data/raw/*|data/downloads/*|data/cache/*|artifacts/raw/*|artifacts/transcripts/*)
+                echo "::error file=$path::Raw, bulky, cached, or generated source material must not be tracked."
+                failed=1
+                ;;
+              *.mp4|*.mkv|*.webm)
+                echo "::error file=$path::Downloaded video must not be tracked."
+                failed=1
+                ;;
+              *.vtt|*.srt)
+                if [[ "$path" != fixtures/* ]]; then
+                  echo "::error file=$path::Caption or transcript files are allowed only as sanitized fixtures."
+                  failed=1
+                fi
+                ;;
+              .cache/*|*/.cache/*|.local/*|*/.local/*)
+                echo "::error file=$path::Local caches must not be tracked."
+                failed=1
+                ;;
+            esac
+          done < <(git ls-files)
+          test "$failed" -eq 0
+
+      - name: Scan tracked text for common secret patterns
+        shell: bash
+        run: |
+          set -euo pipefail
+          pattern='BEGIN (RSA|OPENSSH|EC|DSA) PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|AKIA[0-9A-Z]{16}'
+          matches="$(git grep -I -n -E "$pattern" -- .             ':!.github/workflows/repository-preflight.yml'             ':!.env.example' || true)"
+          if [[ -n "$matches" ]]; then
+            echo "::error::Potential secret material found in tracked text."
+            echo "$matches"
+            exit 1
+          fi
