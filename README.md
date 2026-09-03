@@ -4,15 +4,15 @@ Private, evidence-first tooling for turning the public record of Town of Ajax fo
 
 ## Current status
 
-Repository preflight for `TASK-001` is complete. The source-discovery prototype has **not** started.
+The repository portion of `TASK-001` is complete except for enforced protection of `main`. GitHub reports that protection rules will not be enforced for this private repository on the current personal-account plan. The source-discovery prototype has **not** started.
 
 The project is governed by the approved *Ajax Council Newsletter Project Charter 1.0*. Human editorial approval is required before any newsletter is exported or published.
 
 ## Repository controls
 
-- `main` is the protected default branch.
+- `main` is the default branch; enforced protection is pending resolution of the account-plan limitation.
 - Each approved assignment uses one issue, one branch, and one pull request.
-- `TASK-001` uses `task/001-source-discovery`.
+- `TASK-001` is tracked in issue #1 and uses `task/001-source-discovery`.
 - The repository-preflight workflow checks required safeguards, prohibited tracked paths, and common secret patterns.
 - Prototype-specific tests, linting, and type checks must be added when the implementation stack is selected.
 
@@ -40,4 +40,4 @@ Small, sanitized fixtures may be committed under `fixtures/` only when an approv
 
 ## Scope boundary
 
-Repository setup is the only completed work. Newsletter generation, user-interface code, production databases, deployment, authentication, publication integrations, and the `TASK-001` source-discovery prototype remain unstarted.
+Repository setup is the only work performed. Newsletter generation, user-interface code, production databases, deployment, authentication, publication integrations, and the `TASK-001` source-discovery prototype remain unstarted.
