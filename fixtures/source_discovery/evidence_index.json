@@ -1,0 +1,60 @@
+{
+  "reviewed_at": "2026-09-07T15:30:00Z",
+  "meetings": {
+    "f96faf0b-5876-f111-ab0e-3833c5fa4def": {
+      "document_overrides": {
+        "agenda": {"kind": "agenda_package", "content_hash": "sha256:e212974debe6a46452ee07fd2131930661a4e531957f7563a4bdf91e589f1517", "pdf_inspection": {"pdf_quality": "mixed", "page_count": 80, "text_page_count": 78, "text_character_count": 112977, "linked_document_count": 1, "linked_documents": [{"kind": "report", "status": "unknown", "title": "2025-01-08-EndingChronicHomelessnessinOntario.pdf", "url": "https://www.amo.on.ca/sites/default/files/assets/DOCUMENTS/Reports/2025/2025-01-08-EndingChronicHomelessnessinOntario.pdf"}]}},
+        "minutes": {"kind": "minutes", "status": "adopted", "content_hash": "sha256:24b6de848c0c17e27513eb2e6a0532069a72cd495ba119cd756c1657137e9226", "pdf_inspection": {"pdf_quality": "text", "page_count": 8, "text_page_count": 8, "text_character_count": 17712, "linked_document_count": 1, "linked_documents": [{"kind": "report", "status": "unknown", "title": "2025-01-08-EndingChronicHomelessnessinOntario.pdf", "url": "https://www.amo.on.ca/sites/default/files/assets/DOCUMENTS/Reports/2025/2025-01-08-EndingChronicHomelessnessinOntario.pdf"}]}}
+      },
+      "video": {"url": "https://www.youtube.com/watch?v=Bz720NXml8w", "availability": "available", "transcript_status": "available", "caption_kind": "automatic"}
+    },
+    "a27892d5-5776-f111-ab0e-3833c5fa4def": {
+      "document_overrides": {
+        "agenda": {"kind": "agenda_package", "content_hash": "sha256:367883e8f63dbc81aa0bb9af8225b1819b7cfa5717ba35765fc2e84ee689ddec", "pdf_inspection": {"pdf_quality": "text", "page_count": 43, "text_page_count": 43, "text_character_count": 74565, "linked_document_count": 0, "linked_documents": []}},
+        "minutes": {"kind": "minutes", "status": "adopted", "content_hash": "sha256:bb00550f6d5b8ebf8a770bb345b07d3f96b4f82e789da2ebe0ac6d62281bb36d", "pdf_inspection": {"pdf_quality": "text", "page_count": 3, "text_page_count": 3, "text_character_count": 3988, "linked_document_count": 0, "linked_documents": []}}
+      },
+      "video": {"url": "https://www.youtube.com/watch?v=Mvqe-Chud38", "availability": "available", "transcript_status": "available", "caption_kind": "automatic"}
+    },
+    "4db4ae62-5876-f111-ab0e-70a8a50cc0b4": {
+      "document_overrides": {
+        "agenda": {"kind": "agenda_package", "content_hash": "sha256:1d829c8ee17866fd2467621560f4834e413ca7db040ba24f4bc159bd565187d4", "pdf_inspection": {"pdf_quality": "text", "page_count": 48, "text_page_count": 48, "text_character_count": 83466, "linked_document_count": 0, "linked_documents": []}},
+        "minutes": {"kind": "minutes", "status": "adopted", "content_hash": "sha256:9ff1d42c17d67653738d08843e247184313fdfa82488055e9a02c3251299dc1d", "pdf_inspection": {"pdf_quality": "text", "page_count": 8, "text_page_count": 8, "text_character_count": 11937, "linked_document_count": 0, "linked_documents": []}}
+      },
+      "video": {"url": "https://www.youtube.com/watch?v=BZAPz7ryBKE", "availability": "available", "transcript_status": "available", "caption_kind": "automatic", "shared_with_source_ids": ["97342862-5876-f111-ab0e-3833c5fa4def"]}
+    },
+    "35ceda6a-c291-f111-8077-3833c5fa4def": {
+      "document_overrides": {
+        "agenda": {"kind": "agenda_package", "content_hash": "sha256:c3bd5f54877e08919ceb34cdb990c51557bd13cf40b28e873ceb5118b65d8166", "pdf_inspection": {"pdf_quality": "text", "page_count": 105, "text_page_count": 105, "text_character_count": 191250, "linked_document_count": 12, "linked_documents": [
+          {"kind": "report", "status": "unknown", "title": "By-Law 84-2026 - Amending Fees and Charges By-law.docx", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Bylaw%20Reports/2026/By-Law%2084-2026%20-%20Amending%20Fees%20and%20Charges%20By-law.docx"},
+          {"kind": "report", "status": "unknown", "title": "By-law 83-2026 - Amending Administrative Monetary Penalty System (AMPS) By-law.docx", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Bylaw%20Reports/2026/By-law%2083-2026%20-%20Amending%20Administrative%20Monetary%20Penalty%20System%20(AMPS)%20By-law.docx"},
+          {"kind": "report", "status": "unknown", "title": "By-law 85-2026 - Short Term Rental Maximum Occupancy By-law.docx", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Bylaw%20Reports/2026/By-law%2085-2026%20-%20Short%20Term%20Rental%20Maximum%20Occupancy%20By-law.docx"},
+          {"kind": "report", "status": "unknown", "title": "Confirming By-law 86-2026.docx", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Bylaw%20Reports/2026/Confirming%20By-law%2086-2026.docx"},
+          {"kind": "report", "status": "unknown", "title": "Update to the Municipal Alcohol Policy.docx", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Council%20Reports/Council%20Meetings/Public%20and%20Strategic%20Affairs/Update%20to%20the%20Municipal%20Alcohol%20Policy.docx"},
+          {"kind": "attachment", "status": "unknown", "title": "ATT-1 - Policy 120-124 Updates.pdf", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Reference%20Documents/Finance/2026%20FSP%20Update%20August/ATT-1%20-%20Policy%20120-124%20Updates.pdf"},
+          {"kind": "attachment", "status": "unknown", "title": "ATT-2 - Policy 120 FSP.pdf", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Reference%20Documents/Finance/2026%20FSP%20Update%20August/ATT-2%20-%20Policy%20120%20FSP.pdf"},
+          {"kind": "attachment", "status": "unknown", "title": "ATT-3 - Policy 121 Discretionary Reserve Admin.pdf", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Reference%20Documents/Finance/2026%20FSP%20Update%20August/ATT-3%20-%20Policy%20121%20Discretionary%20Reserve%20Admin.pdf"},
+          {"kind": "attachment", "status": "unknown", "title": "ATT-4 - Policy 122 Discretionary Stabilization.pdf", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Reference%20Documents/Finance/2026%20FSP%20Update%20August/ATT-4%20-%20Policy%20122%20Discretionary%20Stabilization.pdf"},
+          {"kind": "attachment", "status": "unknown", "title": "ATT-5 - Policy 123 Discretionary Capital Reserve.pdf", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Reference%20Documents/Finance/2026%20FSP%20Update%20August/ATT-5%20-%20Policy%20123%20Discretionary%20Capital%20Reserve.pdf"},
+          {"kind": "attachment", "status": "unknown", "title": "ATT-6 - Policy 124 Debt Management.pdf", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Reference%20Documents/Finance/2026%20FSP%20Update%20August/ATT-6%20-%20Policy%20124%20Debt%20Management.pdf"},
+          {"kind": "attachment", "status": "draft", "title": "ATT-1 - DRAFT Municipal Alcohol Policy.docx", "url": "https://hmsajax.sharepoint.com/sites/CouncilandBylawReports/Reference%20Documents/Public%20and%20Strategic%20Affairs/ATT-1%20-%20DRAFT%20Municipal%20Alcohol%20Policy.docx"}
+        ]}},
+        "minutes": {"kind": "minutes", "status": "adopted", "content_hash": "sha256:8d81178db3db62e6aeb4e31359c66ff7fc2e4905414fe14365cace04e66a195b", "pdf_inspection": {"pdf_quality": "text", "page_count": 3, "text_page_count": 3, "text_character_count": 4440, "linked_document_count": 0, "linked_documents": []}}
+      },
+      "video": {"url": "https://www.youtube.com/watch?v=jiXUMO2Dq7A", "availability": "available", "transcript_status": "available", "caption_kind": "automatic"}
+    },
+    "db736fcf-5976-f111-ab0e-70a8a50cc0b4": {
+      "document_overrides": {
+        "agenda": {"kind": "agenda_package", "content_hash": "sha256:487239b0f8c5e6961f464047b450584254200dc5e6e9419f9795e02bd367f80b", "pdf_inspection": {"pdf_quality": "text", "page_count": 25, "text_page_count": 25, "text_character_count": 34671, "linked_document_count": 0, "linked_documents": []}},
+        "minutes": {"kind": "minutes", "status": "adopted", "content_hash": "sha256:7b20e0d695e4342a50d534aeb62e0b2534afa472b0f3951102e4f43c719d815f", "pdf_inspection": {"pdf_quality": "text", "page_count": 6, "text_page_count": 6, "text_character_count": 13120, "linked_document_count": 0, "linked_documents": []}}
+      },
+      "video": {"url": "https://www.youtube.com/watch?v=N7iw7q4yscw", "availability": "unavailable", "transcript_status": "unavailable", "caption_kind": null, "match_confidence": 0.65, "match_reasons": ["A reviewed official-channel candidate used the meeting date and committee type.", "The candidate is an offline scheduled-stream placeholder, not a playable record."]}
+    },
+    "0fa51ad4-5576-f111-ab0e-3833c5fa4def": {
+      "document_overrides": {
+        "agenda": {"kind": "minutes", "status": "adopted", "content_hash": "sha256:67ff5e4a70808675485c3a9177977fb31b5227241f9f8e07e1df26d38ea80e16", "pdf_inspection": {"pdf_quality": "text", "page_count": 9, "text_page_count": 9, "text_character_count": 18337, "linked_document_count": 0, "linked_documents": []}},
+        "minutes": {"kind": "minutes", "status": "draft", "content_hash": "sha256:e56999318f5a6792156d3f3447a936b5095ee3f7357df4800520fe88465f626b", "pdf_inspection": {"pdf_quality": "text", "page_count": 9, "text_page_count": 9, "text_character_count": 18374, "linked_document_count": 0, "linked_documents": []}}
+      },
+      "video": {"url": "https://www.youtube.com/watch?v=udSwMGQ_n98", "availability": "available", "transcript_status": "available", "caption_kind": "automatic", "match_confidence": 0.9, "match_reasons": ["Official Town of Ajax channel title and meeting date match the portal record."]}
+    }
+  }
+}
