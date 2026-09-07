@@ -29,7 +29,18 @@ jobs:
           test -f .gitignore
           test -f .env.example
           grep -Fq "cp .env.example .env" README.md
-          grep -Fq "source-discovery prototype has **not** started" README.md
+          grep -Fq "TASK-001 source-discovery prototype is implemented" README.md
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install source-discovery dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run deterministic source-discovery tests
+        run: python -m unittest discover -s tests -v
 
       - name: Reject prohibited tracked paths
         shell: bash
@@ -75,9 +86,8 @@ jobs:
         run: |
           set -euo pipefail
           pattern='BEGIN (RSA|OPENSSH|EC|DSA) PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|AKIA[0-9A-Z]{16}'
-          matches="$(git grep -I -n -E "$pattern" -- .             ':!.github/workflows/repository-preflight.yml'             ':!.env.example' || true)"
+          matches="$(git grep -I -n -E "$pattern" -- .             ':!.github' || true)"
           if [[ -n "$matches" ]]; then
-            echo "::error::Potential secret material found in tracked text."
             echo "$matches"
             exit 1
           fi
