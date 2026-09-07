@@ -1,6 +1,6 @@
 # Ajax Council Newsletter — First-release architecture
 
-**Status:** Draft produced under approved TASK-002; awaiting product-owner acceptance  
+**Status:** Accepted by the product owner on 2026-09-07  
 **Scope:** Private, single-product-owner workflow; design only
 
 ## Architectural intent

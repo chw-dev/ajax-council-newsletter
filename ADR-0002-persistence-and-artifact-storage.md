@@ -1,6 +1,6 @@
 # ADR-0002: Persistence and artifact storage
 
-**Status:** Proposed; awaiting product-owner acceptance  
+**Status:** Accepted by the product owner on 2026-09-07  
 **Date:** 2026-09-07  
 **Decision owner:** Product owner  
 **Scope:** Private, single-user Ajax Council Newsletter first release

@@ -1,6 +1,6 @@
 # Ajax Council Newsletter — Data model
 
-**Status:** Draft produced under approved TASK-002; awaiting product-owner acceptance  
+**Status:** Accepted by the product owner on 2026-09-07  
 **Scope:** Logical model for a private, single-user first release; no migration or implementation
 
 ## Modeling rules

@@ -4,7 +4,7 @@ Private, evidence-first tooling for turning the public record of Town of Ajax fo
 
 ## Current status
 
-The TASK-001 source-discovery prototype is implemented, accepted, and merged into `main`. `TASK-002` is designing the production architecture and data model; it does not authorize production implementation.
+The TASK-001 source-discovery prototype is implemented, accepted, and merged into `main`. The `TASK-002` production architecture and data model are accepted; they do not authorize production implementation.
 
 The project is governed by the approved *Ajax Council Newsletter Project Charter 1.0*. Human editorial approval is required before any newsletter is exported or published.
 
@@ -48,4 +48,4 @@ Small, sanitized fixtures may be committed under `fixtures/` only when an approv
 
 ## Scope boundary
 
-Implementation remains limited to the accepted `TASK-001` source-discovery spike. TASK-002 adds design documents only. Newsletter generation, user-interface code, production databases, deployment, authentication, and publication integrations remain unstarted.
+Implementation remains limited to the accepted `TASK-001` source-discovery spike. TASK-002 adds accepted design documents only. Newsletter generation, user-interface code, production databases, deployment, authentication, and publication integrations remain unstarted.
