@@ -1,0 +1,83 @@
+{
+  "retrieved_at": "2026-09-07T15:47:00Z",
+  "value": [
+    {
+      "crf6e_cityconnectionsmeetingsid": "f96faf0b-5876-f111-ab0e-3833c5fa4def",
+      "crf6e_title": "11-17-2025 Council",
+      "crf6e_meetingtype": "Council",
+      "crf6e_meetingdate": "2025-11-17T18:00:00Z",
+      "crf6e_meetingstatus": "Completed",
+      "crf6e_agendalink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(f96faf0b-5876-f111-ab0e-3833c5fa4def)/crf6e_meetingagenda/$value",
+      "crf6e_meetingagenda_name": "11-17-2025 Council - Agenda.pdf",
+      "crf6e_minuteslink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(f96faf0b-5876-f111-ab0e-3833c5fa4def)/crf6e_meetingreference/$value",
+      "crf6e_meetingreference_name": "11-17-2025 Council - Minutes.pdf",
+      "crf6e_meetinglink": "https://youtube.com/live/Bz720NXml8w?feature=share",
+      "modifiedon": "2026-07-02T20:53:18Z"
+    },
+    {
+      "crf6e_cityconnectionsmeetingsid": "a27892d5-5776-f111-ab0e-3833c5fa4def",
+      "crf6e_title": "11-03-2025 Community Affairs and Planning Committee",
+      "crf6e_meetingtype": "Community Affairs and Planning Committee",
+      "crf6e_meetingdate": "2025-11-03T18:00:00Z",
+      "crf6e_meetingstatus": "Completed",
+      "crf6e_agendalink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(a27892d5-5776-f111-ab0e-3833c5fa4def)/crf6e_meetingagenda/$value",
+      "crf6e_meetingagenda_name": "11-03-2025 Community Affairs and Planning Committee - Agenda.pdf",
+      "crf6e_minuteslink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(a27892d5-5776-f111-ab0e-3833c5fa4def)/crf6e_meetingreference/$value",
+      "crf6e_meetingreference_name": "11-03-2025 Community Affairs and Planning Committee - Minutes.pdf",
+      "crf6e_meetinglink": "https://youtube.com/live/Mvqe-Chud38?feature=share",
+      "modifiedon": "2026-07-02T20:51:47Z"
+    },
+    {
+      "crf6e_cityconnectionsmeetingsid": "4db4ae62-5876-f111-ab0e-70a8a50cc0b4",
+      "crf6e_title": "12-08-2025 General Government Committee",
+      "crf6e_meetingtype": "General Government Committee",
+      "crf6e_meetingdate": "2025-12-08T18:00:00Z",
+      "crf6e_meetingstatus": "Completed",
+      "crf6e_agendalink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(4db4ae62-5876-f111-ab0e-70a8a50cc0b4)/crf6e_meetingagenda/$value",
+      "crf6e_meetingagenda_name": "12-08-2025 General Government Committee - Agenda.pdf",
+      "crf6e_minuteslink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(4db4ae62-5876-f111-ab0e-70a8a50cc0b4)/crf6e_meetingreference/$value",
+      "crf6e_meetingreference_name": "12-08-2025 General Government Committee - Minutes.pdf",
+      "crf6e_meetinglink": "https://youtube.com/live/BZAPz7ryBKE?feature=share",
+      "modifiedon": "2026-07-02T20:55:49Z"
+    },
+    {
+      "crf6e_cityconnectionsmeetingsid": "35ceda6a-c291-f111-8077-3833c5fa4def",
+      "crf6e_title": "08-11-2026 Special Council",
+      "crf6e_meetingtype": "Special Council",
+      "crf6e_meetingdate": "2026-08-11T18:00:00Z",
+      "crf6e_meetingstatus": "Completed",
+      "crf6e_agendalink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(35ceda6a-c291-f111-8077-3833c5fa4def)/crf6e_meetingagenda/$value",
+      "crf6e_meetingagenda_name": "08-11-2026 Special Council - Agenda.pdf",
+      "crf6e_minuteslink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(35ceda6a-c291-f111-8077-3833c5fa4def)/crf6e_meetingreference/$value",
+      "crf6e_meetingreference_name": "08-11-2026 Special Council - Minutes.pdf",
+      "crf6e_meetinglink": "https://www.youtube.com/watch?v=jiXUMO2Dq7A",
+      "modifiedon": "2026-08-21T20:10:47Z"
+    },
+    {
+      "crf6e_cityconnectionsmeetingsid": "db736fcf-5976-f111-ab0e-70a8a50cc0b4",
+      "crf6e_title": "03-23-2026 Council",
+      "crf6e_meetingtype": "Committee of Adjustment",
+      "crf6e_meetingdate": "2026-03-25T23:00:00Z",
+      "crf6e_meetingstatus": "Completed",
+      "crf6e_agendalink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(db736fcf-5976-f111-ab0e-70a8a50cc0b4)/crf6e_meetingagenda/$value",
+      "crf6e_meetingagenda_name": "03-25-2026 Committee of Adjustment - Agenda.pdf",
+      "crf6e_minuteslink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(db736fcf-5976-f111-ab0e-70a8a50cc0b4)/crf6e_meetingreference/$value",
+      "crf6e_meetingreference_name": "03-25-2026 Committee of Adjustment - Minutes.pdf",
+      "crf6e_meetinglink": null,
+      "modifiedon": "2026-07-02T21:05:57Z"
+    },
+    {
+      "crf6e_cityconnectionsmeetingsid": "0fa51ad4-5576-f111-ab0e-3833c5fa4def",
+      "crf6e_title": "05-19-2026 Council",
+      "crf6e_meetingtype": "Council",
+      "crf6e_meetingdate": "2026-05-19T17:00:00Z",
+      "crf6e_meetingstatus": "Completed",
+      "crf6e_agendalink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(0fa51ad4-5576-f111-ab0e-3833c5fa4def)/crf6e_meetingagenda/$value",
+      "crf6e_meetingagenda_name": "05-19-2026 Council - Minutes.pdf",
+      "crf6e_minuteslink": "https://ajax-publicmeetings.powerappsportals.com/_api/crf6e_cityconnectionsmeetingses(0fa51ad4-5576-f111-ab0e-3833c5fa4def)/crf6e_meetingreference/$value",
+      "crf6e_meetingreference_name": "05-19-2026 Council - Minutes.pdf",
+      "crf6e_meetinglink": null,
+      "modifiedon": "2026-08-04T15:47:13Z"
+    }
+  ]
+}
